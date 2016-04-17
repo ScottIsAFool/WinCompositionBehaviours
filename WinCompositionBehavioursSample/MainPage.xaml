@@ -12,6 +12,10 @@
                 <Button Content="Parallax Behaviour"
                         Margin="10"
                         Click="ButtonBase_OnClick"/>
+                <Button x:Name="BlurButton"
+                        Content="Blur Behaviour"
+                        Margin="10"
+                        Click="BlurButton_OnClick"/>
             </StackPanel>
         </ScrollViewer>
     </Grid>

@@ -20,5 +20,10 @@ namespace WinCompositionBehavioursSample
         {
             Frame.Navigate(typeof (ParallaxSample));
         }
+
+        private void BlurButton_OnClick(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof (BlurSample));
+        }
     }
 }
